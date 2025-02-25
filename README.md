@@ -79,3 +79,4 @@ Feel free to submit issues and pull requests!
 
 This project is licensed under the **MIT License**.
 
+deployment link: https://effervescent-marigold-6feb39.netlify.app/
