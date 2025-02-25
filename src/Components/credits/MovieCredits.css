@@ -1,0 +1,58 @@
+.main-credits {
+    margin: 7rem auto;
+    width: 90%;
+}
+
+.credit-head {
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.carouselItem {
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    padding: 10px;
+}
+.carouselItem__txt{
+    margin-top: 1rem;
+}
+.carouselItem__img {
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: 0px 8px 13px rgba(0, 0, 0, 0.2);
+}
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background 0.3s;
+}
+
+.carousel-btn.left {
+    left: 10px;
+}
+
+.carousel-btn.right {
+    right: 10px;
+}
+
+.carousel-btn:hover {
+    background: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
